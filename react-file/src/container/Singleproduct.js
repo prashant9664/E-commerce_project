@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate, NavLink } from "react-router-dom";
 
-
 const Singleproduct = () =>{
     let [pro, setPro] = useState([]);
     let [mm, setMimage] = useState([]);
